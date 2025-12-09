@@ -1,0 +1,5 @@
+[user]
+	name = dngnyoo
+	email = dngnyoo@gmail.com
+[http]
+	postBuffer = 524288000

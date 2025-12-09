@@ -1,0 +1,25 @@
+{
+  "Version": "22.04",
+  "Arch": "arm64",
+  "RAM": 1.9,
+  "Partitions": [
+    14.9,
+    0.5
+  ],
+  "Screens": [
+    {
+      "Size": "0mmx0mm",
+      "Resolution": "1280x800",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "",
+    "Type": "x11"
+  },
+  "Language": "C",
+  "Timezone": "America/New_York"
+}

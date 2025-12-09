@@ -1,0 +1,27 @@
+# --- ROS 2 빌드 결과물 (절대 올리면 안 됨) ---
+build/
+install/
+log/
+
+# --- Python 자동 생성 파일 ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- 데이터 및 미디어 파일 (용량 큰 것들) ---
+*.bag
+*.rosbag
+*.pcd
+*.pgm
+*.wav
+*.mp3
+
+# --- VS Code 및 시스템 설정 파일 ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+.vscode-server/
+.vscode-server/
+.vscode-server

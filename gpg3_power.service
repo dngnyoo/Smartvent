@@ -1,0 +1,13 @@
+[Unit]
+Description=GoPiGo3 Power Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/python3 /home/ubuntu/GoPiGo3/Software/gopigo3_power.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
