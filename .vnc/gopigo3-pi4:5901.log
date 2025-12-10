@@ -8976,3 +8976,2726 @@ Xlib:  extension "DPMS" missing on display ":1.0".
 Geolocation service not in use
 
 ** (xiccd:1380): CRITICAL **: 11:43:55.223: device 'xrandr-default' does not exist
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 15:28:16 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaae42c31e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaae42c31e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:22433): xfwm4-WARNING **: 15:28:28.851: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:22504): WARNING **: 15:28:31.861: EDID is empty
+
+** (xfce4-screensaver:22514): WARNING **: 15:28:32.790: screensaver already running in this session
+
+** (xiccd:22504): CRITICAL **: 15:28:32.849: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+
+** (xfce4-power-manager:22527): WARNING **: 15:28:33.010: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:22527): WARNING **: 15:28:33.012: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:22527): xfce4-power-manager-WARNING **: 15:28:33.021: Monitor is not DPMS capable
+
+(xfce4-power-manager:22527): GLib-GObject-WARNING **: 15:28:33.590: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaaad3f40970' of type 'GDBusProxy'
+
+(xfce4-power-manager:22527): xfce4-power-manager-WARNING **: 15:28:34.231: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:22527): xfce4-power-manager-WARNING **: 15:28:34.294: Unable to inhibit systemd sleep: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+
+** (xfce4-power-manager:22527): WARNING **: 15:28:34.296: No outputs have backlight property
+
+(xfce4-power-manager:22527): xfce4-power-manager-WARNING **: 15:28:34.318: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+** (wrapper-2.0:22595): WARNING **: 15:28:38.189: No outputs have backlight property
+
+** (xfdesktop:22499): WARNING **: 15:28:38.322: Failed to set the background '/usr/share/backgrounds/xfce/xfce-verticals.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+(wrapper-2.0:22596): GLib-GIO-CRITICAL **: 15:28:38.367: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:22596): GLib-GIO-CRITICAL **: 15:28:38.368: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:22596): GLib-GObject-WARNING **: 15:28:38.368: invalid (NULL) pointer instance
+
+(wrapper-2.0:22596): GLib-GObject-CRITICAL **: 15:28:38.368: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:22596): Gtk-WARNING **: 15:28:38.368: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:28:38.594: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:28:38.608: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:28:38.609: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22592): Gtk-WARNING **: 15:28:39.047: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:22596): Gtk-WARNING **: 15:28:39.212: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:28:39.286: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): Gtk-WARNING **: 15:28:39.385: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+Geolocation service not in use
+
+** (xiccd:22504): CRITICAL **: 15:28:51.241: device 'xrandr-default' does not exist
+
+** (xiccd:22504): CRITICAL **: 15:29:30.863: device 'xrandr-default' does not exist
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:30:59.020: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:30:59.181: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:30:59.464: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:30:59.464: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:30:59.742: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:30:59.742: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:30:59.784: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:30:59.862: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:30:59.862: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:30:59.908: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:30:59.908: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:30:59.927: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:30:59.927: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:30:59.927: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:30:59.928: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:30:59.928: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:30:59.934: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:30:59.934: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:30:59.943: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:30:59.943: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:30:59.943: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:30:59.944: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:30:59.944: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:30:59.952: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:30:59.952: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:30:59.959: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:30:59.960: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:30:59.960: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:30:59.960: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:30:59.960: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:30:59.969: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:30:59.970: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:30:59.976: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:30:59.976: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:30:59.976: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:30:59.977: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:30:59.977: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:30:59.989: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:30:59.989: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:30:59.996: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:30:59.996: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:30:59.996: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:30:59.996: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:30:59.997: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.003: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.003: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.011: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.011: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.011: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.011: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.011: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.018: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.018: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.026: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.026: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.026: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.027: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.027: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.034: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.035: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.041: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.041: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.042: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.042: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.042: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.050: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.050: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.063: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.064: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.064: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.064: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.064: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.071: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.071: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.078: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.078: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.078: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.078: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.078: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.086: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.086: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.093: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.093: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.093: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.093: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.093: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.099: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.100: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.106: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.106: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.106: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.106: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.106: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.112: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.113: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.120: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.120: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.121: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.121: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.121: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.129: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.129: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.137: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.137: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.137: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.137: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.137: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.146: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.146: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.152: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.152: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.152: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.152: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.153: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.159: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.159: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.167: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.167: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.167: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.168: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.168: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.174: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.174: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.182: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.182: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.182: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.182: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.182: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.189: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.189: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.196: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.196: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.196: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.196: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.196: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.202: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.202: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.209: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.209: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.209: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.210: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.210: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.216: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.216: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.223: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.223: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.223: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.223: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.223: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.230: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.230: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.237: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.237: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.238: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.238: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.238: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.244: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.244: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.251: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.251: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.251: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.251: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.251: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.258: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.258: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.265: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.266: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.266: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.266: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.266: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.272: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.273: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.279: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.279: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.280: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.280: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.280: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.287: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.287: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.295: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.295: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.295: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.296: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.296: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.303: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.303: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.310: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.310: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.310: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.310: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.311: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.318: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.318: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.325: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.325: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.325: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.325: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.325: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.334: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.334: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.340: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.341: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.341: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.341: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): GLib-CRITICAL **: 15:31:00.341: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.347: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.348: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): libupower-glib-CRITICAL **: 15:31:00.355: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:22595): GLib-GObject-CRITICAL **: 15:31:00.356: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:22595): Gtk-CRITICAL **: 15:31:00.356: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:22592): pulseaudio-plugin-WARNING **: 15:31:02.678: Disconected from the PulseAudio server. Attempting to reconnect in 5 seconds.
+
+** (xiccd:22504): WARNING **: 15:31:03.620: Exiting
+
+(xfce4-panel:22489): xfce4-panel-CRITICAL **: 15:31:03.823: Name org.xfce.Panel lost on the message dbus, exiting.
+
+(Thunar:22493): thunar-WARNING **: 15:31:03.811: Name 'org.xfce.FileManager' lost on the message dbus.
+
+(Thunar:22493): thunar-WARNING **: 15:31:03.880: Name 'org.freedesktop.FileManager1' lost on the message dbus.
+
+(xfce4-power-manager:22527): libxfce4ui-WARNING **: 15:31:04.064: ICE I/O Error
+
+(xfce4-power-manager:22527): libxfce4ui-WARNING **: 15:31:04.083: Disconnected from session manager.
+Another notification daemon is running, exiting
+
+** (xfce4-power-manager:22527): WARNING **: 15:31:04.097: Error: The connection is closed
+
+
+** (xfce4-power-manager:22527): WARNING **: 15:31:04.097: Error: The connection is closed
+
+xfsettingsd: Another instance took over. Leaving...
+
+(tracker-miner-fs-3:22526): Tracker-WARNING **: 15:31:04.309: Could not delete '.meta.isrunning': No such file or directory
+
+OK
+
+The Xtigervnc server died with signal 9!
+The X session exited with status 1!
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 15:31:24 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaadc0431e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaadc0431e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:1407): xfwm4-WARNING **: 15:31:30.234: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:1447): WARNING **: 15:31:31.822: EDID is empty
+Failure: Module initialization failed
+
+** (xiccd:1447): CRITICAL **: 15:31:31.935: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+
+** (xfce4-power-manager:1480): WARNING **: 15:31:32.443: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:1480): WARNING **: 15:31:32.446: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:1480): xfce4-power-manager-WARNING **: 15:31:32.544: Monitor is not DPMS capable
+
+(xfce4-power-manager:1480): GLib-GObject-WARNING **: 15:31:32.931: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaaadb1d9950' of type 'GDBusProxy'
+
+(xfce4-power-manager:1480): xfce4-power-manager-WARNING **: 15:31:33.172: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:1480): WARNING **: 15:31:33.270: No outputs have backlight property
+
+** (xfce4-screensaver:1458): WARNING **: 15:31:33.282: screensaver already running in this session
+
+(xfce4-power-manager:1480): xfce4-power-manager-WARNING **: 15:31:33.316: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+(nm-applet:1496): Gtk-WARNING **: 15:31:33.856: Can't set a parent on widget which has a parent
+
+** (xfdesktop:1442): WARNING **: 15:31:35.701: Failed to set the background '/usr/share/backgrounds/xfce/xfce-verticals.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+** (wrapper-2.0:1538): WARNING **: 15:31:36.513: No outputs have backlight property
+
+(wrapper-2.0:1539): GLib-GIO-CRITICAL **: 15:31:36.548: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1539): GLib-GIO-CRITICAL **: 15:31:36.548: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1539): GLib-GObject-WARNING **: 15:31:36.548: invalid (NULL) pointer instance
+
+(wrapper-2.0:1539): GLib-GObject-CRITICAL **: 15:31:36.548: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1539): Gtk-WARNING **: 15:31:36.548: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 15:31:36.685: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 15:31:36.695: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 15:31:36.696: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 15:31:37.506: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1539): Gtk-WARNING **: 15:32:12.833: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1537): Gtk-WARNING **: 15:32:12.904: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1537): pulseaudio-plugin-WARNING **: 15:32:12.906: Disconected from the PulseAudio server. Attempting to reconnect in 5 seconds.
+
+(wrapper-2.0:1538): Gtk-WARNING **: 15:32:12.984: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(nm-applet:1496): Gtk-CRITICAL **: 15:32:13.212: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:1496): Gtk-CRITICAL **: 15:32:13.213: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+Geolocation service not in use
+
+** (xiccd:1447): CRITICAL **: 15:32:23.594: device 'xrandr-default' does not exist
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:22.681: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:23.116: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:24.095: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:24.095: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:24.684: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:24.685: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:25.195: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:26.720: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:26.720: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:26.776: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:26.776: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:26.822: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:26.822: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:26.831: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:26.849: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:26.849: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:26.863: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:26.863: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:26.879: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:26.879: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:26.879: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:26.879: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:26.879: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:26.897: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:26.897: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:26.918: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:26.918: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:26.921: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:26.931: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:26.931: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:26.952: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:26.952: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:26.971: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:26.971: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:26.971: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:26.971: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:26.971: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:26.978: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:26.978: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:26.992: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:26.993: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:26.993: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:26.993: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:26.993: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.000: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.000: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.029: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.029: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.030: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.030: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.030: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.050: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.050: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.065: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.065: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.072: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.072: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.072: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.096: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.096: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.140: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.141: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.141: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.141: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.141: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.151: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.151: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.159: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.160: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.160: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.160: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.160: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.167: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.179: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.186: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.186: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.186: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.186: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.187: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.207: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.207: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.231: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.231: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.231: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.232: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.232: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.240: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.240: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.269: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.269: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.269: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.270: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.270: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.305: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.312: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.351: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.351: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.352: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.352: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.352: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.359: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.359: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.366: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.366: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.366: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.366: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.366: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.373: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.373: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.385: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.385: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.390: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.391: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.391: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.418: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.419: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.452: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.452: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.452: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.452: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.453: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.471: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.472: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.495: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.495: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.495: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.495: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.495: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.502: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.507: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.540: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.541: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.541: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.541: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.541: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.557: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.557: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.565: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.565: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.565: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.565: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.566: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.572: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.572: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.578: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.579: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.579: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.579: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.579: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.600: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.600: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.606: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.607: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.607: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.607: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.607: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.616: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.616: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.627: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.627: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.627: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.627: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.627: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.635: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.635: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.642: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.642: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.642: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.643: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.643: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.654: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.654: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.662: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.662: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.662: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.662: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.662: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.670: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.670: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.677: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.677: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.677: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.677: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.678: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.689: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.693: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.707: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.707: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.707: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.707: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.707: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.727: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.731: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.737: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.738: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.738: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.738: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.738: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.746: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.746: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.754: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.754: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.754: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.754: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): GLib-CRITICAL **: 16:04:27.755: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.761: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.761: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): libupower-glib-CRITICAL **: 16:04:27.768: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1538): GLib-GObject-CRITICAL **: 16:04:27.768: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1538): Gtk-CRITICAL **: 16:04:27.769: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1537): pulseaudio-plugin-WARNING **: 16:05:48.010: Disconected from the PulseAudio server. Attempting to reconnect in 5 seconds.
+xfsettingsd: Another instance took over. Leaving...
+
+** (xfce4-power-manager:1480): WARNING **: 16:05:48.817: Error: The connection is closed
+
+
+** (xfce4-power-manager:1480): WARNING **: 16:05:48.912: Error: The connection is closed
+
+
+(xfdesktop:1442): libxfce4ui-WARNING **: 16:05:49.153: ICE I/O Error
+
+(xfdesktop:1442): libxfce4ui-WARNING **: 16:05:49.251: Disconnected from session manager.
+
+(xfce4-panel:1433): xfce4-panel-CRITICAL **: 16:05:48.856: Name org.xfce.Panel lost on the message dbus, exiting.
+
+(xfwm4:1407): libxfce4ui-WARNING **: 16:05:49.264: ICE I/O Error
+
+(xfwm4:1407): libxfce4ui-WARNING **: 16:05:49.586: Disconnected from session manager.
+The Xtigervnc server died with signal 9!
+The X session exited with status 1!
+
+(tracker-miner-fs-3:1479): Tracker-WARNING **: 16:05:50.482: Could not delete '.meta.isrunning': No such file or directory
+
+OK
+
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:07:37 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaaae6b31e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaaae6b31e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:1359): xfwm4-WARNING **: 16:07:43.375: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:1398): WARNING **: 16:07:44.921: EDID is empty
+Failure: Module initialization failed
+
+** (xiccd:1398): CRITICAL **: 16:07:45.033: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+
+** (xfce4-power-manager:1428): WARNING **: 16:07:45.398: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:1428): WARNING **: 16:07:45.407: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:1428): xfce4-power-manager-WARNING **: 16:07:45.519: Monitor is not DPMS capable
+
+** (xfce4-screensaver:1409): WARNING **: 16:07:45.818: screensaver already running in this session
+
+(xfce4-power-manager:1428): GLib-GObject-WARNING **: 16:07:46.060: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaab054d5970' of type 'GDBusProxy'
+
+(xfce4-power-manager:1428): xfce4-power-manager-WARNING **: 16:07:46.245: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:1428): WARNING **: 16:07:46.394: No outputs have backlight property
+
+(xfce4-power-manager:1428): xfce4-power-manager-WARNING **: 16:07:46.465: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+** (xfdesktop:1393): WARNING **: 16:07:48.966: Failed to set the background '/usr/share/backgrounds/xfce/xfce-verticals.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+(wrapper-2.0:1478): GLib-GIO-CRITICAL **: 16:07:49.630: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1478): GLib-GIO-CRITICAL **: 16:07:49.630: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1478): GLib-GObject-WARNING **: 16:07:49.630: invalid (NULL) pointer instance
+
+(wrapper-2.0:1478): GLib-GObject-CRITICAL **: 16:07:49.630: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1478): Gtk-WARNING **: 16:07:49.630: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:1477): WARNING **: 16:07:49.884: No outputs have backlight property
+
+(wrapper-2.0:1477): Gtk-CRITICAL **: 16:07:50.124: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1477): Gtk-CRITICAL **: 16:07:50.136: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1477): Gtk-CRITICAL **: 16:07:50.136: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1478): Gtk-WARNING **: 16:07:50.323: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1476): Gtk-WARNING **: 16:07:51.076: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1477): Gtk-CRITICAL **: 16:07:51.078: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1477): Gtk-WARNING **: 16:07:51.241: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+Geolocation service not in use
+
+** (xiccd:1398): CRITICAL **: 16:08:01.949: device 'xrandr-default' does not exist
+Geolocation service not in use
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:28:22 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaacc1031e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaacc1031e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:12640): xfwm4-WARNING **: 16:28:31.335: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:12709): WARNING **: 16:28:37.515: EDID is empty
+
+** (xiccd:12709): CRITICAL **: 16:28:38.426: device 'xrandr-default' does not exist
+
+** (xfce4-power-manager:12742): WARNING **: 16:28:38.602: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+Geolocation service not in use
+
+** (xfce4-power-manager:12742): WARNING **: 16:28:38.648: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:12742): xfce4-power-manager-WARNING **: 16:28:38.663: Monitor is not DPMS capable
+
+(xfce4-power-manager:12742): GLib-GObject-WARNING **: 16:28:39.086: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaaae7819100' of type 'GDBusProxy'
+
+(xfce4-power-manager:12742): xfce4-power-manager-WARNING **: 16:28:39.284: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:12742): WARNING **: 16:28:39.314: No outputs have backlight property
+
+(xfce4-power-manager:12742): xfce4-power-manager-WARNING **: 16:28:39.396: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+** (xfce4-screensaver:12721): WARNING **: 16:28:39.730: screensaver already running in this session
+
+** (wrapper-2.0:12784): WARNING **: 16:28:49.645: No outputs have backlight property
+
+(wrapper-2.0:12783): xfce4-panel-wrapper-WARNING **: 16:29:14.467: ProviderSignal call failed: Timeout was reached
+
+(wrapper-2.0:12779): xfce4-panel-wrapper-WARNING **: 16:29:14.551: ProviderSignal call failed: Timeout was reached
+
+(wrapper-2.0:12785): xfce4-panel-wrapper-WARNING **: 16:29:14.551: ProviderSignal call failed: Timeout was reached
+
+(wrapper-2.0:12784): xfce4-panel-wrapper-WARNING **: 16:29:15.184: ProviderSignal call failed: Timeout was reached
+
+(wrapper-2.0:12785): GLib-GIO-CRITICAL **: 16:29:15.564: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:12785): GLib-GIO-CRITICAL **: 16:29:15.564: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:12785): GLib-GObject-WARNING **: 16:29:15.564: invalid (NULL) pointer instance
+
+(wrapper-2.0:12785): GLib-GObject-CRITICAL **: 16:29:15.564: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:12785): Gtk-WARNING **: 16:29:15.564: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:12784): Gtk-CRITICAL **: 16:29:20.185: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:12784): Gtk-CRITICAL **: 16:29:20.482: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:12784): Gtk-CRITICAL **: 16:29:20.483: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:12784): Gtk-CRITICAL **: 16:29:20.858: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:12820): Gtk-WARNING **: 16:29:21.099: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+
+(wrapper-2.0:12783): Gtk-WARNING **: 16:29:21.220: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+** (xfdesktop:12685): WARNING **: 16:29:21.377: Failed to set the background '/usr/share/backgrounds/xfce/xfce-verticals.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+(wrapper-2.0:12784): Gtk-WARNING **: 16:29:21.427: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:12785): Gtk-WARNING **: 16:29:21.569: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:29:26 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaab05f31e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaab05f31e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:13153): xfwm4-WARNING **: 16:29:47.006: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:13211): WARNING **: 16:29:52.894: EDID is empty
+
+** (xiccd:13211): CRITICAL **: 16:29:53.430: device 'xrandr-default' does not exist
+
+** (xfce4-power-manager:13239): WARNING **: 16:29:54.066: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:13239): WARNING **: 16:29:54.070: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:13239): xfce4-power-manager-WARNING **: 16:29:54.208: Monitor is not DPMS capable
+
+** (xfce4-screensaver:13228): WARNING **: 16:29:54.750: screensaver already running in this session
+
+(xfce4-power-manager:13239): GLib-GObject-WARNING **: 16:29:54.872: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaab01216970' of type 'GDBusProxy'
+
+(xfce4-power-manager:13239): xfce4-power-manager-WARNING **: 16:29:55.128: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:13239): WARNING **: 16:29:55.163: No outputs have backlight property
+
+(xfce4-power-manager:13239): xfce4-power-manager-WARNING **: 16:29:55.210: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Timeout was reached
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:30:40 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaaacef31e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaaacef31e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:13476): xfwm4-WARNING **: 16:31:30.866: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:13523): WARNING **: 16:31:35.100: EDID is empty
+
+** (xiccd:13523): CRITICAL **: 16:31:36.127: device 'xrandr-default' does not exist
+
+** (xfce4-power-manager:13561): WARNING **: 16:31:36.984: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:13561): WARNING **: 16:31:36.992: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+** (xfce4-screensaver:13535): WARNING **: 16:31:37.163: screensaver already running in this session
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:13561): xfce4-power-manager-WARNING **: 16:31:37.835: Monitor is not DPMS capable
+
+(xfce4-power-manager:13561): GLib-GObject-WARNING **: 16:31:38.192: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaaaf6763150' of type 'GDBusProxy'
+
+(xfce4-power-manager:13561): xfce4-power-manager-WARNING **: 16:31:38.429: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:13561): WARNING **: 16:31:38.462: No outputs have backlight property
+
+(xfce4-power-manager:13561): xfce4-power-manager-WARNING **: 16:31:38.754: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+** (wrapper-2.0:13599): WARNING **: 16:31:47.861: No outputs have backlight property
+
+(wrapper-2.0:13600): GLib-GIO-CRITICAL **: 16:32:04.717: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:13600): GLib-GIO-CRITICAL **: 16:32:04.798: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:13600): GLib-GObject-WARNING **: 16:32:04.798: invalid (NULL) pointer instance
+
+(wrapper-2.0:13600): GLib-GObject-CRITICAL **: 16:32:04.798: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:13600): Gtk-WARNING **: 16:32:04.798: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:13600): Gtk-WARNING **: 16:32:05.388: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:13598): Gtk-WARNING **: 16:32:05.540: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:13599): Gtk-CRITICAL **: 16:32:05.948: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:13599): Gtk-CRITICAL **: 16:32:05.966: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:13599): Gtk-CRITICAL **: 16:32:05.966: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:13599): Gtk-CRITICAL **: 16:32:06.153: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:13599): Gtk-WARNING **: 16:32:06.247: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+** (xfdesktop:13517): WARNING **: 16:32:06.725: Failed to set the background '/usr/share/backgrounds/xfce/xfce-verticals.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:32:41 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaaddda31e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaaddda31e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:13901): xfwm4-WARNING **: 16:32:53.390: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:13971): WARNING **: 16:33:03.996: EDID is empty
+
+** (xiccd:13971): CRITICAL **: 16:33:04.764: device 'xrandr-default' does not exist
+
+** (xfce4-power-manager:14006): WARNING **: 16:33:06.957: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:14006): WARNING **: 16:33:06.963: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+** (xfce4-screensaver:13978): WARNING **: 16:33:08.026: screensaver already running in this session
+Geolocation service not in use
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:14006): xfce4-power-manager-WARNING **: 16:33:09.539: Monitor is not DPMS capable
+
+(xfce4-power-manager:14006): GLib-GObject-WARNING **: 16:33:10.999: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaaadde43130' of type 'GDBusProxy'
+
+** (wrapper-2.0:13992): WARNING **: 16:33:11.280: No outputs have backlight property
+
+(xfce4-power-manager:14006): xfce4-power-manager-WARNING **: 16:33:11.330: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:14006): WARNING **: 16:33:11.367: No outputs have backlight property
+
+(xfce4-power-manager:14006): xfce4-power-manager-WARNING **: 16:33:12.113: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+(wrapper-2.0:13992): xfce4-panel-wrapper-WARNING **: 16:33:36.897: ProviderSignal call failed: Timeout was reached
+
+(wrapper-2.0:13993): xfce4-panel-wrapper-WARNING **: 16:33:36.522: ProviderSignal call failed: Timeout was reached
+
+(wrapper-2.0:14010): xfce4-panel-wrapper-WARNING **: 16:33:36.516: ProviderSignal call failed: Timeout was reached
+
+(wrapper-2.0:13984): xfce4-panel-wrapper-WARNING **: 16:33:38.331: ProviderSignal call failed: Timeout was reached
+
+(wrapper-2.0:13993): GLib-GIO-CRITICAL **: 16:33:38.557: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:13993): GLib-GIO-CRITICAL **: 16:33:39.109: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:13993): GLib-GObject-WARNING **: 16:33:39.109: invalid (NULL) pointer instance
+
+(wrapper-2.0:13993): GLib-GObject-CRITICAL **: 16:33:39.109: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:13993): Gtk-WARNING **: 16:33:39.109: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:13991): xfce4-panel-wrapper-WARNING **: 16:33:39.118: ProviderSignal call failed: Timeout was reached
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:33:45 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaab98031e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaab98031e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:14181): xfwm4-WARNING **: 16:34:27.359: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xfce4-power-manager:14260): WARNING **: 16:34:50.590: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xiccd:14239): WARNING **: 16:34:50.683: EDID is empty
+
+** (xfce4-power-manager:14260): WARNING **: 16:34:50.746: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:14260): xfce4-power-manager-WARNING **: 16:34:51.734: Monitor is not DPMS capable
+
+** (xiccd:14239): CRITICAL **: 16:34:51.975: device 'xrandr-default' does not exist
+
+** (xfce4-screensaver:14251): WARNING **: 16:34:52.005: screensaver already running in this session
+
+(xfce4-power-manager:14260): GLib-GObject-WARNING **: 16:34:52.074: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaaacf50d970' of type 'GDBusProxy'
+
+(xfce4-power-manager:14260): xfce4-power-manager-WARNING **: 16:34:52.317: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:14260): WARNING **: 16:34:52.342: No outputs have backlight property
+
+(xfce4-power-manager:14260): xfce4-power-manager-WARNING **: 16:34:52.390: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:35:02 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaac83d31e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaac83d31e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:14527): xfwm4-WARNING **: 16:35:16.576: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xfce4-power-manager:14579): WARNING **: 16:35:43.935: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:14579): WARNING **: 16:35:44.211: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+** (xiccd:14561): WARNING **: 16:35:44.639: EDID is empty
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:14579): xfce4-power-manager-WARNING **: 16:35:49.140: Monitor is not DPMS capable
+
+** (xiccd:14561): CRITICAL **: 16:35:51.011: device 'xrandr-default' does not exist
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:36:02 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaae63831e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaae63831e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:14715): xfwm4-WARNING **: 16:36:35.886: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:14768): WARNING **: 16:36:53.290: EDID is empty
+
+** (xiccd:14768): CRITICAL **: 16:36:53.885: device 'xrandr-default' does not exist
+
+** (xfce4-power-manager:14802): WARNING **: 16:36:54.459: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:14802): WARNING **: 16:36:54.463: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+** (xfce4-screensaver:14789): WARNING **: 16:36:55.121: screensaver already running in this session
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:14802): xfce4-power-manager-WARNING **: 16:36:55.475: Monitor is not DPMS capable
+
+(xfce4-power-manager:14802): GLib-GObject-WARNING **: 16:36:56.172: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaaadfb90970' of type 'GDBusProxy'
+
+(xfce4-power-manager:14802): xfce4-power-manager-WARNING **: 16:36:56.583: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:14802): WARNING **: 16:36:56.621: No outputs have backlight property
+
+(xfce4-power-manager:14802): xfce4-power-manager-WARNING **: 16:36:56.676: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+** (wrapper-2.0:14829): WARNING **: 16:37:04.884: No outputs have backlight property
+
+(wrapper-2.0:14832): GLib-GIO-CRITICAL **: 16:37:06.745: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:14832): GLib-GIO-CRITICAL **: 16:37:06.746: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:14832): GLib-GObject-WARNING **: 16:37:06.746: invalid (NULL) pointer instance
+
+(wrapper-2.0:14832): GLib-GObject-CRITICAL **: 16:37:06.746: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:14832): Gtk-WARNING **: 16:37:06.746: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:14829): Gtk-CRITICAL **: 16:37:07.285: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:14829): Gtk-CRITICAL **: 16:37:07.300: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:14829): Gtk-CRITICAL **: 16:37:07.301: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:14829): Gtk-CRITICAL **: 16:37:07.909: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:14829): Gtk-WARNING **: 16:37:08.150: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:14828): Gtk-WARNING **: 16:37:08.823: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:14832): Gtk-WARNING **: 16:37:09.185: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+** (xfdesktop:14755): WARNING **: 16:37:13.558: Failed to set the background '/usr/share/backgrounds/xfce/xfce-verticals.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:44:28 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaad3d231e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaad3d231e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:44:38 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaabd6a31e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaabd6a31e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:16434): xfwm4-WARNING **: 16:44:52.690: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:16527): WARNING **: 16:44:58.485: EDID is empty
+
+** (xfce4-power-manager:16553): WARNING **: 16:44:59.020: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:16553): WARNING **: 16:44:59.026: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+** (xiccd:16527): CRITICAL **: 16:44:59.112: device 'xrandr-default' does not exist
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:16553): xfce4-power-manager-WARNING **: 16:44:59.449: Monitor is not DPMS capable
+
+** (xfce4-screensaver:16542): WARNING **: 16:44:59.611: screensaver already running in this session
+
+(xfce4-power-manager:16553): GLib-GObject-WARNING **: 16:44:59.920: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaaae51c8950' of type 'GDBusProxy'
+
+(xfce4-power-manager:16553): xfce4-power-manager-WARNING **: 16:45:00.187: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:16553): WARNING **: 16:45:00.215: No outputs have backlight property
+
+(xfce4-power-manager:16553): xfce4-power-manager-WARNING **: 16:45:00.753: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+** (wrapper-2.0:16612): WARNING **: 16:45:06.820: No outputs have backlight property
+
+(wrapper-2.0:16613): GLib-GIO-CRITICAL **: 16:45:07.275: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:16613): GLib-GIO-CRITICAL **: 16:45:07.275: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:16613): GLib-GObject-WARNING **: 16:45:07.275: invalid (NULL) pointer instance
+
+(wrapper-2.0:16613): GLib-GObject-CRITICAL **: 16:45:07.276: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:16613): Gtk-WARNING **: 16:45:07.276: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:16612): Gtk-CRITICAL **: 16:45:07.521: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:16612): Gtk-CRITICAL **: 16:45:07.539: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:16612): Gtk-CRITICAL **: 16:45:07.541: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:16613): Gtk-WARNING **: 16:45:08.004: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:16612): Gtk-CRITICAL **: 16:45:08.370: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:16612): Gtk-WARNING **: 16:45:08.531: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:16611): Gtk-WARNING **: 16:45:08.564: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+** (xfdesktop:16498): WARNING **: 16:45:31.685: Failed to set the background '/usr/share/backgrounds/xfce/xfce-verticals.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:46:09 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaaafa231e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaaafa231e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:16960): xfwm4-WARNING **: 16:46:19.882: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:17022): WARNING **: 16:46:25.366: EDID is empty
+
+** (xiccd:17022): CRITICAL **: 16:46:26.147: device 'xrandr-default' does not exist
+
+** (xfce4-power-manager:17063): WARNING **: 16:46:26.665: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:17063): WARNING **: 16:46:26.843: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+** (xfce4-screensaver:17036): WARNING **: 16:46:27.338: screensaver already running in this session
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:17063): xfce4-power-manager-WARNING **: 16:46:34.328: Monitor is not DPMS capable
+
+(xfce4-power-manager:17063): GLib-GObject-WARNING **: 16:46:35.700: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaaabf93d130' of type 'GDBusProxy'
+Geolocation service not in use
+
+(xfce4-power-manager:17063): xfce4-power-manager-WARNING **: 16:46:36.957: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:17063): WARNING **: 16:46:36.982: No outputs have backlight property
+
+(xfce4-power-manager:17063): xfce4-power-manager-WARNING **: 16:46:37.024: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+** (wrapper-2.0:17091): WARNING **: 16:46:39.117: No outputs have backlight property
+
+** (xfdesktop:17002): WARNING **: 16:46:42.382: Failed to set the background '/usr/share/backgrounds/xfce/xfce-verticals.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+(wrapper-2.0:17092): GLib-GIO-CRITICAL **: 16:46:42.862: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:17092): GLib-GIO-CRITICAL **: 16:46:42.862: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:17092): GLib-GObject-WARNING **: 16:46:42.862: invalid (NULL) pointer instance
+
+(wrapper-2.0:17092): GLib-GObject-CRITICAL **: 16:46:42.862: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:17092): Gtk-WARNING **: 16:46:42.862: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:17091): Gtk-CRITICAL **: 16:46:43.400: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:17091): Gtk-CRITICAL **: 16:46:43.447: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:17091): Gtk-CRITICAL **: 16:46:43.448: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:17092): Gtk-WARNING **: 16:46:44.142: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:17091): Gtk-CRITICAL **: 16:46:44.347: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:17091): Gtk-WARNING **: 16:46:44.712: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:47:18 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaae08c31e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaae08c31e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:17438): xfwm4-WARNING **: 16:47:35.211: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:17545): WARNING **: 16:47:46.665: EDID is empty
+
+** (xiccd:17545): CRITICAL **: 16:47:47.266: device 'xrandr-default' does not exist
+
+** (xfce4-power-manager:17589): WARNING **: 16:47:47.784: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:17589): WARNING **: 16:47:47.792: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:17589): xfce4-power-manager-WARNING **: 16:47:48.130: Monitor is not DPMS capable
+Geolocation service not in use
+
+** (xfce4-screensaver:17563): WARNING **: 16:47:48.712: screensaver already running in this session
+
+(xfce4-power-manager:17589): GLib-GObject-WARNING **: 16:47:49.686: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaaae23f1120' of type 'GDBusProxy'
+
+(xfce4-power-manager:17589): xfce4-power-manager-WARNING **: 16:47:49.936: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:17589): WARNING **: 16:47:49.965: No outputs have backlight property
+
+(xfce4-power-manager:17589): xfce4-power-manager-WARNING **: 16:47:50.119: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+** (wrapper-2.0:17612): WARNING **: 16:48:03.418: No outputs have backlight property
+
+** (xfdesktop:17533): WARNING **: 16:48:14.266: Failed to set the background '/usr/share/backgrounds/xfce/xfce-verticals.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+(wrapper-2.0:17614): GLib-GIO-CRITICAL **: 16:48:15.852: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:17614): GLib-GIO-CRITICAL **: 16:48:15.852: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:17614): GLib-GObject-WARNING **: 16:48:15.852: invalid (NULL) pointer instance
+
+(wrapper-2.0:17614): GLib-GObject-CRITICAL **: 16:48:15.853: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:17614): Gtk-WARNING **: 16:48:15.853: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:17612): Gtk-CRITICAL **: 16:48:17.325: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:17612): Gtk-CRITICAL **: 16:48:18.071: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:17612): Gtk-CRITICAL **: 16:48:18.071: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:17612): Gtk-CRITICAL **: 16:48:18.912: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:48:45 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaaac1331e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaaac1331e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:17994): xfwm4-WARNING **: 16:49:14.858: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:51:39 2025
+ vncext:      VNC extension running!
+
+Tue Dec  9 16:51:40 2025
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 16:52:28 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaab12231e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaab12231e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:18349): xfwm4-WARNING **: 16:52:46.450: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:18425): WARNING **: 16:52:59.736: EDID is empty
+
+** (xfce4-screensaver:18432): WARNING **: 16:53:00.837: screensaver already running in this session
+
+** (xfce4-power-manager:18452): WARNING **: 16:53:01.178: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:18452): WARNING **: 16:53:01.179: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:18452): xfce4-power-manager-WARNING **: 16:53:04.982: Monitor is not DPMS capable
+
+(xfce4-power-manager:18452): GLib-GObject-WARNING **: 16:53:05.235: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaaae9e79930' of type 'GDBusProxy'
+
+** (wrapper-2.0:18448): WARNING **: 16:53:08.418: No outputs have backlight property
+
+** (xiccd:18425): CRITICAL **: 16:53:13.130: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+
+(xfce4-power-manager:18452): xfce4-power-manager-WARNING **: 16:53:13.680: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:18452): xfce4-power-manager-WARNING **: 16:53:13.784: Unable to inhibit systemd sleep: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: Permission denied
+
+** (xfce4-power-manager:18452): WARNING **: 16:53:13.785: No outputs have backlight property
+
+(xfce4-power-manager:18452): xfce4-power-manager-WARNING **: 16:53:14.790: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+** (xfdesktop:18414): WARNING **: 16:53:27.374: Failed to set the background '/usr/share/backgrounds/xfce/xfce-verticals.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+(wrapper-2.0:18449): GLib-GIO-CRITICAL **: 16:53:28.626: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:18449): GLib-GIO-CRITICAL **: 16:53:28.627: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:18449): GLib-GObject-WARNING **: 16:53:28.627: invalid (NULL) pointer instance
+
+(wrapper-2.0:18449): GLib-GObject-CRITICAL **: 16:53:28.627: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:18449): Gtk-WARNING **: 16:53:28.627: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:18448): Gtk-CRITICAL **: 16:53:29.184: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:18448): Gtk-CRITICAL **: 16:53:29.267: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:18448): Gtk-CRITICAL **: 16:53:29.271: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(nm-applet:18487): Gdk-CRITICAL **: 16:53:29.458: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(wrapper-2.0:18445): Gtk-WARNING **: 16:53:29.480: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:18449): Gtk-WARNING **: 16:53:29.551: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:18448): Gtk-CRITICAL **: 16:53:29.714: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:18448): Gtk-WARNING **: 16:53:31.329: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 17:07:40 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaaaebf31e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaaaebf31e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:1350): xfwm4-WARNING **: 17:07:46.945: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:1457): WARNING **: 17:07:51.405: EDID is empty
+
+** (xiccd:1457): CRITICAL **: 17:07:51.910: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+
+** (xfce4-power-manager:1486): WARNING **: 17:07:52.120: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:1486): WARNING **: 17:07:52.133: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:1486): xfce4-power-manager-WARNING **: 17:07:52.433: Monitor is not DPMS capable
+Another notification daemon is running, exiting
+
+** (xfce4-screensaver:1474): WARNING **: 17:07:54.836: screensaver already running in this session
+Failure: Module initialization failed
+
+(xfce4-power-manager:1486): GLib-GObject-WARNING **: 17:07:55.041: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaaaeb44a960' of type 'GDBusProxy'
+
+(xfce4-power-manager:1486): xfce4-power-manager-WARNING **: 17:07:55.859: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:1486): WARNING **: 17:07:56.649: No outputs have backlight property
+
+(xfce4-power-manager:1486): xfce4-power-manager-WARNING **: 17:07:56.700: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+** (xfdesktop:1430): WARNING **: 17:08:00.658: Failed to set the background '/usr/share/backgrounds/xfce/xfce-verticals.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+** (wrapper-2.0:1575): WARNING **: 17:08:03.298: No outputs have backlight property
+
+(wrapper-2.0:1576): GLib-GIO-CRITICAL **: 17:08:04.145: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1576): GLib-GIO-CRITICAL **: 17:08:04.146: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1576): GLib-GObject-WARNING **: 17:08:04.146: invalid (NULL) pointer instance
+
+(wrapper-2.0:1576): GLib-GObject-CRITICAL **: 17:08:04.146: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1576): Gtk-WARNING **: 17:08:04.146: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1575): Gtk-CRITICAL **: 17:08:04.508: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1575): Gtk-CRITICAL **: 17:08:04.572: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1575): Gtk-CRITICAL **: 17:08:04.572: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1575): Gtk-CRITICAL **: 17:08:05.376: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1575): Gtk-WARNING **: 17:08:05.758: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:1576): Gtk-WARNING **: 17:08:05.875: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1571): Gtk-WARNING **: 17:08:05.988: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 17:11:13 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaaaec831e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaaaec831e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:1401): xfwm4-WARNING **: 17:11:21.478: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+Failure: Module initialization failed
+
+** (xiccd:1549): WARNING **: 17:11:25.737: EDID is empty
+
+** (xfce4-power-manager:1585): WARNING **: 17:11:27.865: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:1585): WARNING **: 17:11:27.870: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:1585): xfce4-power-manager-WARNING **: 17:11:27.957: Monitor is not DPMS capable
+
+** (xfce4-screensaver:1565): WARNING **: 17:11:28.466: screensaver already running in this session
+
+(xfce4-power-manager:1585): GLib-GObject-WARNING **: 17:11:28.640: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaaaf1389970' of type 'GDBusProxy'
+
+(xfce4-power-manager:1585): xfce4-power-manager-WARNING **: 17:11:28.974: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:1585): WARNING **: 17:11:29.030: No outputs have backlight property
+
+(xfce4-power-manager:1585): xfce4-power-manager-WARNING **: 17:11:29.081: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+** (xfdesktop:1528): WARNING **: 17:11:34.905: Failed to set the background '/usr/share/backgrounds/xfce/xfce-verticals.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+(wrapper-2.0:1669): GLib-GIO-CRITICAL **: 17:11:37.442: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1669): GLib-GIO-CRITICAL **: 17:11:37.442: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1669): GLib-GObject-WARNING **: 17:11:37.442: invalid (NULL) pointer instance
+
+(wrapper-2.0:1669): GLib-GObject-CRITICAL **: 17:11:37.443: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1669): Gtk-WARNING **: 17:11:37.443: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:1668): WARNING **: 17:11:37.931: No outputs have backlight property
+
+(wrapper-2.0:1668): Gtk-CRITICAL **: 17:11:38.662: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1668): Gtk-CRITICAL **: 17:11:38.738: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1668): Gtk-CRITICAL **: 17:11:38.739: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1669): Gtk-WARNING **: 17:11:38.963: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1668): Gtk-CRITICAL **: 17:11:39.440: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1668): Gtk-WARNING **: 17:11:39.755: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:1665): Gtk-WARNING **: 17:11:40.506: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+Geolocation service not in use
+
+** (xiccd:1549): CRITICAL **: 17:11:57.806: device 'xrandr-default' does not exist
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 17:27:24 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaac77f31e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaac77f31e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:1414): xfwm4-WARNING **: 17:27:31.236: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:1533): WARNING **: 17:46:57.547: EDID is empty
+Failure: Module initialization failed
+
+** (xfce4-screensaver:1551): WARNING **: 17:46:59.400: screensaver already running in this session
+
+** (xfce4-power-manager:1583): WARNING **: 17:46:59.564: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:1583): WARNING **: 17:46:59.576: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:1583): xfce4-power-manager-WARNING **: 17:46:59.608: Monitor is not DPMS capable
+
+(xfce4-power-manager:1583): GLib-GObject-WARNING **: 17:47:00.055: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaaaff180170' of type 'GDBusProxy'
+
+(xfce4-power-manager:1583): xfce4-power-manager-WARNING **: 17:47:00.492: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:1583): WARNING **: 17:47:00.567: No outputs have backlight property
+
+(xfce4-power-manager:1583): xfce4-power-manager-WARNING **: 17:47:00.628: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+** (xfdesktop:1467): WARNING **: 17:47:06.528: Failed to set the background '/usr/share/backgrounds/xfce/xfce-verticals.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+** (wrapper-2.0:1643): WARNING **: 17:47:09.225: No outputs have backlight property
+
+(wrapper-2.0:1706): Gtk-WARNING **: 17:47:10.221: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+
+(wrapper-2.0:1642): Gtk-WARNING **: 17:47:10.451: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1644): GLib-GIO-CRITICAL **: 17:47:10.531: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1644): GLib-GIO-CRITICAL **: 17:47:10.531: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1644): GLib-GObject-WARNING **: 17:47:10.531: invalid (NULL) pointer instance
+
+(wrapper-2.0:1644): GLib-GObject-CRITICAL **: 17:47:10.532: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1644): Gtk-WARNING **: 17:47:10.532: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 17:47:10.796: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 17:47:10.814: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 17:47:10.814: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 17:47:11.384: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1644): Gtk-WARNING **: 17:47:11.448: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1643): Gtk-WARNING **: 17:47:11.688: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+Geolocation service not in use
+
+** (xiccd:1533): CRITICAL **: 17:47:25.834: device 'xrandr-default' does not exist
+thunar-volman: Unsupported USB device type "usb".
+thunar-volman: Unsupported USB device type "cp210x".
+thunar-volman: Unsupported USB device type "usb".
+thunar-volman: Unsupported USB device type "cp210x".
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:40.993: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:40.993: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:41.817: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:41.817: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+/usr/share/system-config-printer/applet.py:366: Warning: Source ID 10 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.058: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.058: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.060: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.061: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.062: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.197: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.197: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.245: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.245: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.246: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.246: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.246: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.285: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.304: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.339: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.339: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.340: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.340: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.341: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.395: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.395: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.437: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.437: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.438: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.438: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.438: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.460: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.460: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.479: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.480: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.480: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.481: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.481: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.501: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.501: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.523: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.524: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.524: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.525: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.525: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.544: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.545: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.569: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.569: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.570: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.570: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.570: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.592: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.592: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.617: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.618: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.618: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.618: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.618: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.649: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.649: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.670: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.670: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.671: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.671: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.671: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.688: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.688: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.712: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.712: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.712: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.713: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.713: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.736: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.736: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.757: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.757: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.757: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.758: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.758: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.781: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.781: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.800: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.800: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.800: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.801: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.804: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.823: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.823: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.859: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.859: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.859: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.864: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.872: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.898: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.898: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.926: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.926: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.926: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.927: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.927: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.970: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.970: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.983: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.984: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:42.984: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.984: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:42.984: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:42.997: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:42.997: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.007: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.019: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.019: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.019: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.019: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1642): pulseaudio-plugin-WARNING **: 18:12:43.025: Disconected from the PulseAudio server. Attempting to reconnect in 5 seconds.
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.028: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.029: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.039: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.039: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.039: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.039: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.039: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.050: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.050: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.060: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.060: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.060: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.061: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.061: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.077: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.077: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.114: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.114: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.115: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.115: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.115: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.140: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.141: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.169: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.169: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.169: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.170: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.170: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.211: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.212: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.234: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.235: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.235: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.235: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.235: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.263: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.264: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.292: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.292: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.293: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.293: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.293: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.314: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.315: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.338: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.338: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.338: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.339: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.339: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.360: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.360: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.386: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.386: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.386: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.387: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.387: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.406: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.406: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.424: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.425: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.425: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.425: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.426: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.443: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.444: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.462: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.462: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.462: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.462: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.463: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.481: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.481: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.505: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.505: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.505: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.506: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.506: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.523: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.524: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.545: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.545: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.545: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.546: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.546: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.566: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.566: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.582: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.582: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.582: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.583: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): GLib-CRITICAL **: 18:12:43.583: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.599: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.600: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): libupower-glib-CRITICAL **: 18:12:43.617: up_device_get_object_path: assertion 'UP_IS_DEVICE (device)' failed
+
+(wrapper-2.0:1643): GLib-GObject-CRITICAL **: 18:12:43.617: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:1643): Gtk-CRITICAL **: 18:12:43.617: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(xfdesktop:1467): libxfce4ui-WARNING **: 18:12:43.915: ICE I/O Error
+
+(xfdesktop:1467): libxfce4ui-WARNING **: 18:12:43.915: Disconnected from session manager.
+
+(xfce4-panel:1456): libxfce4ui-WARNING **: 18:12:43.917: ICE I/O Error
+
+(xfce4-panel:1456): libxfce4ui-WARNING **: 18:12:43.918: Disconnected from session manager.
+
+(xfsettingsd:1446): libxfce4ui-WARNING **: 18:12:43.919: ICE I/O Error
+
+(xfce4-power-manager:1583): libxfce4ui-WARNING **: 18:12:43.919: ICE I/O Error
+
+(xfsettingsd:1446): libxfce4ui-WARNING **: 18:12:43.919: Disconnected from session manager.
+
+(xfce4-power-manager:1583): libxfce4ui-WARNING **: 18:12:43.919: Disconnected from session manager.
+
+(xfwm4:1414): libxfce4ui-WARNING **: 18:12:43.920: ICE I/O Error
+
+(xfwm4:1414): libxfce4ui-WARNING **: 18:12:43.920: Disconnected from session manager.
+The X session exited with status 1!
+Killing Xtigervnc process ID 1333...xfsettingsd: Another instance took over. Leaving...
+
+(Thunar:1460): thunar-WARNING **: 18:12:43.998: Name 'org.xfce.FileManager' lost on the message dbus.
+
+(Thunar:1460): thunar-WARNING **: 18:12:43.999: Name 'org.freedesktop.FileManager1' lost on the message dbus.
+
+** (xiccd:1533): WARNING **: 18:12:44.038: Exiting
+Another notification daemon is running, exiting
+
+** (xfce4-power-manager:1583): WARNING **: 18:12:44.072: Error: The connection is closed
+
+
+** (xfce4-power-manager:1583): WARNING **: 18:12:44.073: Error: The connection is closed
+
+
+(tracker-miner-fs-3:1581): GVFS-RemoteVolumeMonitor-WARNING **: 18:12:44.135: Owner of volume monitor org.gtk.vfs.UDisks2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+XIO:  fatal IO error 25 (Inappropriate ioctl for device) on X server ":1.0"
+      after 25 requests (25 known processed) with 0 events remaining.
+
+Tue Dec  9 18:12:44 2025
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+ success!
+
+(tracker-miner-fs-3:1581): Tracker-WARNING **: 18:12:44.383: Could not delete '.meta.isrunning': No such file or directory
+
+OK
+
+
+Xvnc TigerVNC 1.12.0 - built 2024-01-23 19:20
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004, X.Org
+
+
+Tue Dec  9 18:13:13 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'gopigo3-pi4:1 (ubuntu)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth,TLSVnc -passwd /home/ubuntu/.vnc/passwd gopigo3-pi4:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaab5bd31e0 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0xaaaab5bd31e0 for event 3
+xrdb: No such file or directory
+xrdb: can't open file '/home/ubuntu/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfwm4:1416): xfwm4-WARNING **: 18:14:02.626: Unsupported GL renderer (llvmpipe (LLVM 15.0.7, 128 bits)).
+
+** (xiccd:1537): WARNING **: 18:14:06.598: EDID is empty
+Failure: Module initialization failed
+
+** (xfce4-power-manager:1586): WARNING **: 18:14:07.770: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:1586): WARNING **: 18:14:07.790: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:1586): xfce4-power-manager-WARNING **: 18:14:07.906: Monitor is not DPMS capable
+
+(xfce4-power-manager:1586): GLib-GObject-WARNING **: 18:14:09.614: ../../../gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0xaaab2311d170' of type 'GDBusProxy'
+
+** (xfce4-screensaver:1556): WARNING **: 18:14:09.621: screensaver already running in this session
+
+(xfce4-power-manager:1586): xfce4-power-manager-WARNING **: 18:14:09.953: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:1586): WARNING **: 18:14:10.029: No outputs have backlight property
+
+(xfce4-power-manager:1586): xfce4-power-manager-WARNING **: 18:14:10.123: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+** (xfdesktop:1475): WARNING **: 18:14:15.718: Failed to set the background '/usr/share/backgrounds/xfce/xfce-verticals.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+** (wrapper-2.0:1680): WARNING **: 18:14:18.701: No outputs have backlight property
+
+(wrapper-2.0:1681): GLib-GIO-CRITICAL **: 18:14:19.191: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1681): GLib-GIO-CRITICAL **: 18:14:19.192: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1681): GLib-GObject-WARNING **: 18:14:19.192: invalid (NULL) pointer instance
+
+(wrapper-2.0:1681): GLib-GObject-CRITICAL **: 18:14:19.192: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1681): Gtk-WARNING **: 18:14:19.192: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1680): Gtk-CRITICAL **: 18:14:19.734: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1680): Gtk-CRITICAL **: 18:14:19.773: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1680): Gtk-CRITICAL **: 18:14:19.774: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1680): Gtk-CRITICAL **: 18:14:20.170: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1680): Gtk-WARNING **: 18:14:20.581: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:1681): Gtk-WARNING **: 18:14:20.718: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1679): Gtk-WARNING **: 18:14:20.975: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+Geolocation service not in use
+
+** (xiccd:1537): CRITICAL **: 18:14:36.568: device 'xrandr-default' does not exist
+thunar-volman: Unsupported USB device type "cp210x".
+thunar-volman: Unsupported USB device type "usb".
+thunar-volman: Unsupported USB device type "usb".
+thunar-volman: Unsupported USB device type "cp210x".
+
+(tracker-miner-fs-3:1581): Tracker-WARNING **: 19:09:35.444: Could not execute sparql: database is locked (strerror of errno (not necessarily related): Resource temporarily unavailable)
+
+(tracker-miner-fs-3:1581): Tracker-WARNING **: 19:09:40.221: Could not execute sparql: database is locked (strerror of errno (not necessarily related): Resource temporarily unavailable)
+
+(tracker-miner-fs-3:1581): Tracker-WARNING **: 19:09:52.205: Could not execute sparql: cannot commit transaction - SQL statements in progress (strerror of errno (not necessarily related): Resource temporarily unavailable)
+
+(tracker-miner-fs-3:1581): Tracker-WARNING **: 19:09:57.167: Could not execute sparql: database is locked (strerror of errno (not necessarily related): Resource temporarily unavailable)
+
+(tracker-miner-fs-3:1581): Tracker-WARNING **: 19:10:11.051: Could not execute sparql: cannot commit transaction - SQL statements in progress (strerror of errno (not necessarily related): Resource temporarily unavailable)

@@ -1,0 +1,4 @@
+[Report]
+Uri=file:///home/ubuntu/rpicam-apps
+Message=database is locked (strerror of errno (not necessarily related): Resource temporarily unavailable)
+Sparql=DELETE WHERE {\nGRAPH <http://tracker.api.gnome.org/ontology/v3/tracker#FileSystem> {\n  <urn:fileid:f7380f37-4684-4f77-abe0-219400572e43:1452038> nie:mimeType ?nie_mimeType } };\nINSERT DATA {\nGRAPH <http://tracker.api.gnome.org/ontology/v3/tracker#FileSystem> {\n<file:///home/ubuntu/rpicam-apps> a nfo:FileDataObject ; \n  nie:interpretedAs <urn:fileid:f7380f37-4684-4f77-abe0-219400572e43:1452038> .\n<urn:fileid:f7380f37-4684-4f77-abe0-219400572e43:1452038> a nie:InformationElement , nfo:Folder ; \n  nie:isStoredAs <file:///home/ubuntu/rpicam-apps> ; \n  nie:mimeType "inode/directory" .\n}\n};\n

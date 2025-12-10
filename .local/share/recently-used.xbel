@@ -55,4 +55,18 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/ubuntu/rpicam-apps/test.jpg" added="2025-12-10T00:20:59.936244Z" modified="2025-12-10T00:21:06.194423Z" visited="2025-12-10T00:20:59.936267Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;eog %U&apos;" modified="2025-12-10T00:20:59.936294Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2025-12-10T00:21:06.194411Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
