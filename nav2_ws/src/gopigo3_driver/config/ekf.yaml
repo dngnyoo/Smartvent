@@ -1,0 +1,132 @@
+# =======================================================================
+# robot_localization EKF Configuration for GoPiGo3
+# =======================================================================
+# This configuration fuses wheel odometry with IMU data for improved
+# localization accuracy.
+#
+# Sensor inputs:
+#   - /odom: Wheel odometry from GoPiGo3 driver (position x,y and yaw)
+#   - /imu/data: BNO055 IMU (orientation, angular velocity, linear acceleration)
+#
+# Output:
+#   - /odometry/filtered: Fused odometry estimate
+#   - TF: odom -> base_footprint (if publish_tf is true)
+# =======================================================================
+
+ekf_filter_node:
+  ros__parameters:
+    # -------------------------
+    # General settings
+    # -------------------------
+    # Frequency of filter updates (reduced for Pi4 performance)
+    frequency: 10.0
+
+    # Sensor timeout (seconds)
+    sensor_timeout: 0.1
+
+    # Whether to broadcast the odom -> base_footprint transform
+    # EKF publishes the fused TF (gopigo3_driver's publish_tf is disabled when EKF is enabled)
+    publish_tf: true
+
+    # Use ROS time vs wall time
+    use_sim_time: false
+
+    # Frame configuration
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: base_footprint
+    world_frame: odom  # Use 'odom' for odometry-only, 'map' when using AMCL
+
+    # -------------------------
+    # Wheel Odometry (odom0)
+    # -------------------------
+    # Input from GoPiGo3 driver: /odom
+    odom0: odom
+    odom0_config: [true,  true,  false,   # x, y, z
+                   false, false, true,    # roll, pitch, yaw
+                   true,  false, false,   # vx, vy, vz
+                   false, false, true,    # vroll, vpitch, vyaw
+                   false, false, false]   # ax, ay, az
+
+    # Use velocity data from odometry (differential drive gives good velocity)
+    odom0_differential: false
+    odom0_relative: false
+
+    # Wheel odometry queue size
+    odom0_queue_size: 10
+
+    # Don't reject measurements with large mahalanobis distance
+    odom0_rejection_threshold: 2.0
+
+    # -------------------------
+    # IMU Data (imu0)
+    # -------------------------
+    # Input from BNO055: /imu/data
+    imu0: imu/data
+
+    # BNO055 IMU - DISABLED yaw due to mounting alignment issues
+    # Only using angular velocity (vyaw) for drift correction
+    # TODO: Re-enable yaw after correcting IMU mounting orientation
+    imu0_config: [false, false, false,   # x, y, z (not from IMU)
+                  false, false, false,   # roll, pitch, yaw (DISABLED - IMU not aligned)
+                  false, false, false,   # vx, vy, vz (not from IMU)
+                  false, false, true,    # vroll, vpitch, vyaw (use vyaw only)
+                  false, false, false]   # ax, ay, az (not using accel)
+
+    # IMU gives absolute orientation, not differential
+    imu0_differential: false
+    imu0_relative: false
+
+    # Remove gravity from acceleration (BNO055 already does this)
+    imu0_remove_gravitational_acceleration: true
+
+    # Queue size
+    imu0_queue_size: 10
+
+    # Rejection threshold
+    imu0_rejection_threshold: 2.0
+
+    # -------------------------
+    # Process Noise Covariance
+    # -------------------------
+    # These values tune how much the filter "trusts" its prediction model
+    # vs the sensor measurements. Lower values = trust model more.
+    # Higher values = adapt to measurements faster.
+    #
+    # Format: [x, y, z, roll, pitch, yaw, vx, vy, vz, vroll, vpitch, vyaw, ax, ay, az]
+    #
+    process_noise_covariance: [0.05,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+                               0.0,   0.05,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+                               0.0,   0.0,   0.06,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+                               0.0,   0.0,   0.0,   0.03,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+                               0.0,   0.0,   0.0,   0.0,   0.03,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+                               0.0,   0.0,   0.0,   0.0,   0.0,   0.06,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+                               0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.025, 0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+                               0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.025, 0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+                               0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.04,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+                               0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.01,  0.0,   0.0,   0.0,   0.0,   0.0,
+                               0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.01,  0.0,   0.0,   0.0,   0.0,
+                               0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.02,  0.0,   0.0,   0.0,
+                               0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.01,  0.0,   0.0,
+                               0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.01,  0.0,
+                               0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.015]
+
+    # -------------------------
+    # Initial Estimate Covariance
+    # -------------------------
+    # Initial uncertainty of the state estimate
+    initial_estimate_covariance: [1e-9, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  1e-9, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  1e-9, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  1e-9, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  1e-9, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9, 0.0,  0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9, 0.0,  0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9, 0.0,  0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9, 0.0,  0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9, 0.0,
+                                  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  1e-9]

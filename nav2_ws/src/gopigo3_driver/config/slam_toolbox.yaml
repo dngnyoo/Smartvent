@@ -1,0 +1,161 @@
+# =======================================================================
+# SLAM Toolbox Configuration for GoPiGo3
+# =======================================================================
+# This configuration is optimized for:
+#   - RPLidar A1M8 (360 degree, ~12m range, ~8000 samples/sec)
+#   - Small indoor environments
+#   - GoPiGo3's size and movement characteristics
+# =======================================================================
+
+slam_toolbox:
+  ros__parameters:
+
+    # -------------------------
+    # General Settings
+    # -------------------------
+    # Plugin for SLAM mode (online_async for real-time mapping)
+    # Options: solver_plugins::CeresSolver, solver_plugins::SpaSolver
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+    ceres_dogleg_type: TRADITIONAL_DOGLEG
+    ceres_loss_function: None
+
+    # -------------------------
+    # Frame Configuration
+    # -------------------------
+    # TF frames used by SLAM
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_footprint
+    scan_topic: /scan
+    mode: mapping  # 'mapping' or 'localization'
+
+    # -------------------------
+    # Map Update Settings
+    # -------------------------
+    # How often to update the map (seconds)
+    map_update_interval: 5.0
+
+    # Resolution of the map (meters per pixel)
+    # 0.05 = 5cm resolution, good balance for indoor
+    resolution: 0.05
+
+    # Maximum range to use from laser (meters)
+    # RPLidar A1 has 12m range, but limit to 4m for indoor exploration
+    # This prevents marking far areas as "free" before they're properly explored
+    max_laser_range: 4.0
+
+    # Minimum range to use (filter out close obstacles)
+    minimum_time_interval: 0.5
+
+    # Transform tolerance (how old transforms can be)
+    transform_timeout: 0.2
+
+    # TF publish period
+    tf_buffer_duration: 30.0
+
+    # -------------------------
+    # Scan Matching Settings
+    # -------------------------
+    # Use scan matching for localization
+    use_scan_matching: true
+
+    # Use scan barycenter (center of mass of scan points)
+    use_scan_barycenter: true
+
+    # Minimum travel distance before updating (meters)
+    # Reduced for small robot like GoPiGo3
+    minimum_travel_distance: 0.1
+
+    # Minimum travel heading change before updating (radians)
+    # ~17 degrees - reduced for more frequent updates
+    minimum_travel_heading: 0.3
+
+    # Scan buffer size (number of scans to keep)
+    scan_buffer_size: 10
+
+    # Maximum scan buffer distance (meters)
+    scan_buffer_maximum_scan_distance: 10.0
+
+    # Link match minimum response fine
+    link_match_minimum_response_fine: 0.1
+
+    # Link scan maximum distance
+    link_scan_maximum_distance: 1.5
+
+    # Loop search maximum distance
+    loop_search_maximum_distance: 3.0
+
+    # Do loop closing
+    do_loop_closing: true
+
+    # Loop match minimum chain size
+    loop_match_minimum_chain_size: 10
+
+    # Loop match maximum variance coarse
+    loop_match_maximum_variance_coarse: 3.0
+
+    # Loop match minimum response coarse
+    loop_match_minimum_response_coarse: 0.35
+
+    # Loop match minimum response fine
+    loop_match_minimum_response_fine: 0.45
+
+    # -------------------------
+    # Correlation Parameters
+    # -------------------------
+    # Search grid dimensions for scan matching
+    correlation_search_space_dimension: 0.5
+    correlation_search_space_resolution: 0.01
+    correlation_search_space_smear_deviation: 0.1
+
+    # -------------------------
+    # Loop Closure Parameters
+    # -------------------------
+    loop_search_space_dimension: 8.0
+    loop_search_space_resolution: 0.05
+    loop_search_space_smear_deviation: 0.03
+
+    # -------------------------
+    # Distance/Angle Variance Penalties
+    # -------------------------
+    # Penalize distance variance
+    distance_variance_penalty: 0.5
+
+    # Penalize angle variance
+    angle_variance_penalty: 1.0
+
+    # Fine search angle offset
+    fine_search_angle_offset: 0.00349
+
+    # Coarse search angle offset
+    coarse_search_angle_offset: 0.349
+
+    # Coarse angle resolution
+    coarse_angle_resolution: 0.0349
+
+    # Minimum angle penalty
+    minimum_angle_penalty: 0.9
+
+    # Minimum distance penalty
+    minimum_distance_penalty: 0.5
+
+    # Use response expansion
+    use_response_expansion: true
+
+    # -------------------------
+    # Interactive Mode Settings
+    # -------------------------
+    # Enable interactive mode (allows pausing/resuming mapping)
+    enable_interactive_mode: false
+
+    # -------------------------
+    # Serialization (Map Saving)
+    # -------------------------
+    # Stack size for serialization
+    stack_size_to_use: 40000000
+
+    # Debug logging
+    debug_logging: false

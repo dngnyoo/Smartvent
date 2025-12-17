@@ -1,0 +1,4 @@
+pyserial
+python-periphery
+smbus-cffi
+wiringpi

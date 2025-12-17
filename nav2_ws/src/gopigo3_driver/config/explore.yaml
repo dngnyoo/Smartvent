@@ -1,0 +1,55 @@
+# =======================================================================
+# Explore Lite Configuration for GoPiGo3
+# =======================================================================
+# Autonomous exploration for SLAM mapping
+# Uses frontier-based exploration to discover unmapped areas
+# =======================================================================
+
+explore_node:
+  ros__parameters:
+    # -------------------------
+    # Robot Configuration
+    # -------------------------
+    robot_base_frame: base_footprint
+
+    # -------------------------
+    # Costmap Topic
+    # -------------------------
+    # Use the costmap from planner_server's global_costmap (managed by lifecycle)
+    costmap_topic: /global_costmap/costmap
+    costmap_updates_topic: /global_costmap/costmap_updates
+
+    # Visualization topic for frontiers
+    visualize: true
+    viz_topic: explore/frontiers
+
+    # -------------------------
+    # Frontier Detection
+    # -------------------------
+    # Minimum size of frontier to consider (in meters)
+    # Smaller value = more sensitive to small unexplored areas
+    # Set very small to detect any frontier
+    min_frontier_size: 0.3
+
+    # -------------------------
+    # Exploration Behavior
+    # -------------------------
+    # How close the robot should get to frontier before considering it reached
+    potential_scale: 3.0
+    gain_scale: 1.0
+    orientation_scale: 0.0
+
+    # Transform tolerance (seconds)
+    transform_tolerance: 0.5
+
+    # -------------------------
+    # Planning
+    # -------------------------
+    # Use the Nav2 planner for path planning
+    planner_frequency: 0.5
+
+    # Progress timeout - if no progress after this time, try new frontier
+    progress_timeout: 60.0
+
+    # Return home when exploration complete
+    return_to_init: false

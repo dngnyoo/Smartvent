@@ -1,0 +1,134 @@
+import time
+import threading
+from math import sqrt
+import rclpy
+from rclpy.node import Node
+
+# 기존 모듈 임포트 (경로가 맞는지 확인 필요)
+from modules.module_base import ModuleBase
+from modules.odometry import turn_with_imu
+from config import OBSTACLE_LIMIT_MM, SAFE_DISTANCE_MM, SCAN_RANGE, SCAN_STEP
+
+# GoPiGo3 드라이버 임포트 (하드웨어 제어용)
+from easygopigo3 import EasyGoPiGo3
+
+class ActiveAvoidanceNode(Node):
+    def __init__(self):
+        super().__init__('active_avoidance_node')
+        
+        # 1. 하드웨어 및 센서 초기화 (여기서 직접 초기화하거나 외부에서 주입)
+        self.gpg = EasyGoPiGo3()
+        self.sensors = self.init_sensors()
+        
+        # ModuleBase의 속성들을 수동으로 설정 (상속 대신 구성 방식 사용 권장)
+        self.imu = self.sensors['imu']
+        self.dist = self.sensors['distance']
+        self.servo = self.sensors['servo']
+        self.odom = self.sensors['odom'] # Odom 클래스가 있다고 가정
+
+        self.get_logger().info("GoPiGo3 Avoidance Node Initialized")
+
+        # 2. 메인 로직을 별도 스레드로 분리 (ROS 통신 차단 방지)
+        self.stop_signal = False
+        self.logic_thread = threading.Thread(target=self.control_loop)
+        self.logic_thread.start()
+
+    def init_sensors(self):
+        # 기존 main 코드에 있던 센서 초기화 로직을 여기에 구현
+        # 예시:
+        servo = self.gpg.init_servo()
+        dist = self.gpg.init_distance_sensor()
+        imu = self.gpg.init_imu_sensor()
+        # Odom 클래스는 사용자의 modules/odometry.py 에 정의되어 있다고 가정
+        from modules.odometry import Odom 
+        odom = Odom(self.gpg) 
+        
+        return {'servo': servo, 'distance': dist, 'imu': imu, 'odom': odom}
+
+    def scan(self, scan_range=SCAN_RANGE, step=SCAN_STEP):
+        data = []
+        for ang in range(scan_range[0], scan_range[1]+1, step):
+            self.servo.rotate_servo(90 + ang)
+            time.sleep(0.1)
+            d = self.dist.read_mm()
+            data.append((ang, d))
+        return data
+
+    def control_loop(self):
+        """ROS 통신과 별개로 돌아가는 메인 제어 루프"""
+        while rclpy.ok() and not self.stop_signal:
+            self.run_logic()
+            time.sleep(0.1)  # CPU 점유율 조절
+
+    def run_logic(self):
+        d = self.dist.read_mm()
+        
+        # 평소에는 그냥 리턴 (또는 직진 명령을 계속 줄 수도 있음)
+        if d > OBSTACLE_LIMIT_MM:
+            # 장애물이 없으면 천천히 전진하거나 대기
+            # self.gpg.drive_cm(10) # 필요시 추가
+            return
+
+        self.get_logger().warn(f"[Avoidance] Obstacle detected ({d:.1f} mm)")
+        self.gpg.stop() # 일단 정지
+
+        scans = self.scan()
+        valid = [(a, d) for a, d in scans if d > OBSTACLE_LIMIT_MM]
+
+        if not valid:
+            self.get_logger().error("[Avoidance] No safe direction. Backing up.")
+            self.gpg.drive_cm(-10, blocking=True)
+            return
+
+        best_angle, best_dist = max(valid, key=lambda x: x[1])
+        self.get_logger().info(f"[Avoidance] Turning {best_angle:+.0f}° (clear {best_dist:.0f} mm)")
+
+        turn_with_imu(self.gpg, self.imu, best_angle)
+        self.gpg.forward()
+        
+        # Odometry 추적 로직
+        x0, y0, _ = self.odom.pose()
+        
+        while rclpy.ok() and not self.stop_signal:
+            self.odom.update()
+            d_front = self.dist.read_mm()
+            dx, dy = self.odom.x - x0, self.odom.y - y0
+            dist_moved = sqrt(dx**2 + dy**2)
+
+            if d_front < OBSTACLE_LIMIT_MM:
+                self.gpg.stop()
+                self.gpg.drive_cm(-5, blocking=True)
+                turn_with_imu(self.gpg, self.imu, best_angle + 15)
+                self.gpg.forward()
+            
+            if dist_moved > SAFE_DISTANCE_MM:
+                break
+            
+            time.sleep(0.1)
+
+        self.gpg.stop()
+        turn_with_imu(self.gpg, self.imu, -best_angle)
+        self.gpg.drive_cm(20, blocking=True)
+        self.gpg.stop()
+        self.get_logger().info("[Avoidance] Path rejoined.")
+
+    def stop(self):
+        self.stop_signal = True
+        self.gpg.stop()
+        self.logic_thread.join()
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = ActiveAvoidanceNode()
+    
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        node.get_logger().info('Keyboard Interrupt (SIGINT)')
+    finally:
+        node.stop()
+        node.destroy_node()
+        rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,30 @@
+{
+  "map_file": "/home/ubuntu/maps/20251216_165724",
+  "timestamp": "2025-12-16T16:57:36.757549",
+  "exploration_time_seconds": 13.074465274810791,
+  "start_position": {
+    "odom_frame": {
+      "x": -10.727171940026157,
+      "y": -2.2018082878292478,
+      "yaw": -2.1873674490860004
+    },
+    "map_frame": {
+      "x": 3.492065061460525,
+      "y": -13.437517016865371,
+      "yaw": -0.7712691938630187
+    }
+  },
+  "end_position": {
+    "odom_frame": {
+      "x": -10.727171940026157,
+      "y": -2.2018082878292478,
+      "yaw": -2.1873674490860004
+    },
+    "map_frame": {
+      "x": 3.492065061460525,
+      "y": -13.437517016865371,
+      "yaw": -0.7711993322262236
+    }
+  },
+  "description": "start_position: where mapping started. end_position: where map was saved. Use end_position for Nav2 initial pose."
+}

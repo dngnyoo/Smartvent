@@ -4,17 +4,23 @@
   <!-- Constants -->
   <xacro:property name="PI" value="3.1415926535897931"/>
 
-  <!-- Robot dimensions -->
+  <!-- Robot dimensions (from GoPiGo3 specs) -->
   <xacro:property name="base_width" value="0.110"/>
   <xacro:property name="base_length" value="0.140"/>
   <xacro:property name="base_height" value="0.070"/>
 
-  <xacro:property name="wheel_radius" value="0.033"/>
+  <xacro:property name="wheel_radius" value="0.03325"/>  <!-- 66.5mm diameter / 2 -->
   <xacro:property name="wheel_width" value="0.022"/>
-  <xacro:property name="wheel_separation" value="0.117"/>
+  <xacro:property name="wheel_separation" value="0.117"/>  <!-- 117mm wheel base -->
 
   <xacro:property name="caster_radius" value="0.015"/>
   <xacro:property name="caster_offset_x" value="0.050"/>
+
+  <!-- Sensor positions (adjust based on your actual mounting) -->
+  <xacro:property name="lidar_height" value="0.12"/>  <!-- Height of LiDAR above base_link -->
+  <xacro:property name="imu_offset_x" value="0.0"/>
+  <xacro:property name="imu_offset_y" value="0.0"/>
+  <xacro:property name="imu_offset_z" value="0.05"/>  <!-- IMU height above base_link -->
 
   <!-- Colors -->
   <material name="black">
@@ -29,7 +35,17 @@
     <color rgba="0.9 0.9 0.9 1"/>
   </material>
 
-  <!-- Base footprint (virtual link on the ground) -->
+  <material name="blue">
+    <color rgba="0.0 0.0 0.8 1"/>
+  </material>
+
+  <material name="green">
+    <color rgba="0.0 0.8 0.0 1"/>
+  </material>
+
+  <!-- ========================== -->
+  <!-- Base footprint (on ground) -->
+  <!-- ========================== -->
   <link name="base_footprint"/>
 
   <joint name="base_joint" type="fixed">
@@ -38,7 +54,9 @@
     <origin xyz="0 0 ${wheel_radius}" rpy="0 0 0"/>
   </joint>
 
+  <!-- ========================== -->
   <!-- Base link (robot body) -->
+  <!-- ========================== -->
   <link name="base_link">
     <visual>
       <geometry>
@@ -64,7 +82,9 @@
     </inertial>
   </link>
 
-  <!-- Left wheel -->
+  <!-- ========================== -->
+  <!-- Left Wheel -->
+  <!-- ========================== -->
   <link name="left_wheel">
     <visual>
       <geometry>
@@ -97,7 +117,9 @@
     <axis xyz="0 1 0"/>
   </joint>
 
-  <!-- Right wheel -->
+  <!-- ========================== -->
+  <!-- Right Wheel -->
+  <!-- ========================== -->
   <link name="right_wheel">
     <visual>
       <geometry>
@@ -130,7 +152,9 @@
     <axis xyz="0 1 0"/>
   </joint>
 
-  <!-- Front caster wheel -->
+  <!-- ========================== -->
+  <!-- Front Caster Wheel -->
+  <!-- ========================== -->
   <link name="front_caster">
     <visual>
       <geometry>
@@ -162,7 +186,9 @@
     <origin xyz="${caster_offset_x} 0 ${-wheel_radius + caster_radius}" rpy="0 0 0"/>
   </joint>
 
-  <!-- Back caster wheel -->
+  <!-- ========================== -->
+  <!-- Back Caster Wheel -->
+  <!-- ========================== -->
   <link name="back_caster">
     <visual>
       <geometry>
@@ -194,21 +220,106 @@
     <origin xyz="${-caster_offset_x} 0 ${-wheel_radius + caster_radius}" rpy="0 0 0"/>
   </joint>
 
-  <!-- LiDAR mount (will be used later for SLAM) -->
+  <!-- ========================== -->
+  <!-- IMU Sensor (BNO055) -->
+  <!-- ========================== -->
+  <link name="imu_link">
+    <visual>
+      <geometry>
+        <box size="0.02 0.02 0.005"/>
+      </geometry>
+      <material name="blue"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </visual>
+
+    <inertial>
+      <mass value="0.001"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.00001" ixy="0.0" ixz="0.0"
+               iyy="0.00001" iyz="0.0"
+               izz="0.00001"/>
+    </inertial>
+  </link>
+
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+    <!-- Adjust this based on your actual IMU mounting position -->
+    <!-- BNO055 on GoPiGo3 is typically mounted on top of the robot -->
+    <origin xyz="${imu_offset_x} ${imu_offset_y} ${imu_offset_z}" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ========================== -->
+  <!-- LiDAR Sensor (RPLidar A1) -->
+  <!-- ========================== -->
   <link name="laser_frame">
     <visual>
       <geometry>
-        <cylinder radius="0.025" length="0.04"/>
+        <cylinder radius="0.035" length="0.04"/>
       </geometry>
       <material name="black"/>
       <origin xyz="0 0 0" rpy="0 0 0"/>
     </visual>
+
+    <collision>
+      <geometry>
+        <cylinder radius="0.035" length="0.04"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </collision>
+
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0"
+               iyy="0.0001" iyz="0.0"
+               izz="0.0001"/>
+    </inertial>
   </link>
 
   <joint name="laser_joint" type="fixed">
     <parent link="base_link"/>
     <child link="laser_frame"/>
-    <origin xyz="0 0 ${base_height + 0.02}" rpy="0 0 0"/>
+    <!-- RPLidar A1 mounted on top of robot -->
+    <!-- rpy: roll=0, pitch=0, yaw=0 - corrected orientation -->
+    <origin xyz="0 0 ${lidar_height}" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ========================== -->
+  <!-- Raspberry Pi Camera (optional) -->
+  <!-- ========================== -->
+  <link name="camera_link">
+    <visual>
+      <geometry>
+        <box size="0.025 0.023 0.023"/>
+      </geometry>
+      <material name="green"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </visual>
+
+    <inertial>
+      <mass value="0.01"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.00001" ixy="0.0" ixz="0.0"
+               iyy="0.00001" iyz="0.0"
+               izz="0.00001"/>
+    </inertial>
+  </link>
+
+  <joint name="camera_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="camera_link"/>
+    <!-- Camera mounted at front of robot, looking forward -->
+    <origin xyz="${base_length/2} 0 ${base_height/2}" rpy="0 0 0"/>
+  </joint>
+
+  <link name="camera_optical_frame"/>
+
+  <joint name="camera_optical_joint" type="fixed">
+    <parent link="camera_link"/>
+    <child link="camera_optical_frame"/>
+    <!-- Transform from camera_link to optical frame (ROS convention) -->
+    <origin xyz="0 0 0" rpy="${-PI/2} 0 ${-PI/2}"/>
   </joint>
 
 </robot>

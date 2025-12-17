@@ -1,0 +1,13 @@
+[Unit]
+Description=GoPiGo3 Power Keep-Alive Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/python3 /home/ubuntu/nav2_ws/src/gopigo3_driver/scripts/gpg3_power.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

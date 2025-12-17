@@ -1,0 +1,11 @@
+I2C_mutex.py
+auto_detect_robot.py
+auto_detect_rpi.py
+di_i2c.py
+di_mutex.py
+setup.py
+Dexter_AutoDetection_and_I2C_Mutex.egg-info/PKG-INFO
+Dexter_AutoDetection_and_I2C_Mutex.egg-info/SOURCES.txt
+Dexter_AutoDetection_and_I2C_Mutex.egg-info/dependency_links.txt
+Dexter_AutoDetection_and_I2C_Mutex.egg-info/requires.txt
+Dexter_AutoDetection_and_I2C_Mutex.egg-info/top_level.txt

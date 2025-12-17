@@ -1,18 +1,17 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="org.gnome.Nautilus.desktop" score="56" last-seen="1765326089"/>
+    <application id="python3.10.desktop" score="1617" last-seen="1765933564"/>
     <application id="org.gnome.eog.desktop" score="3" last-seen="1765326089"/>
-    <application id="firefox_firefox.desktop" score="41" last-seen="1765235728"/>
-    <application id="gnome-system-monitor.desktop" score="326" last-seen="1765325832"/>
-    <application id="org.gnome.gedit.desktop" score="92" last-seen="1765318374"/>
-    <application id="org.gnome.baobab.desktop" score="1" last-seen="1765304608"/>
-    <application id="org.gnome.Terminal.desktop" score="2022" last-seen="1765326019"/>
-    <application id="terminator.desktop" score="1301" last-seen="1765314567"/>
-    <application id="gnome-control-center.desktop" score="1132" last-seen="1765318477"/>
-    <application id="org.gnome.DiskUtility.desktop" score="2" last-seen="1765304591"/>
-    <application id="apport-gtk.desktop" score="0" last-seen="1765304770"/>
-    <application id="org.gnome.Cheese.desktop" score="1" last-seen="1765304281"/>
-    <application id="update-manager.desktop" score="2" last-seen="1765077703"/>
+    <application id="org.gnome.Nautilus.desktop" score="57" last-seen="1765917644"/>
+    <application id="firefox_firefox.desktop" score="91" last-seen="1765583723"/>
+    <application id="gnome-system-monitor.desktop" score="1109" last-seen="1765922462"/>
+    <application id="software-properties-gtk.desktop" score="9" last-seen="1765411179"/>
+    <application id="org.gnome.gedit.desktop" score="93" last-seen="1765578234"/>
+    <application id="org.gnome.Terminal.desktop" score="3059" last-seen="1765917641"/>
+    <application id="gnome-control-center.desktop" score="1608" last-seen="1765933577"/>
+    <application id="terminator.desktop" score="4391" last-seen="1765915974"/>
+    <application id="update-manager.desktop" score="30" last-seen="1765411227"/>
+    <application id="apport-gtk.desktop" score="14" last-seen="1765932882"/>
   </context>
 </application-state>

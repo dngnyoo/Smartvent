@@ -1,0 +1,17 @@
+{
+  "map_file": "/home/ubuntu/maps/20251212_172520",
+  "timestamp": "2025-12-12T17:25:25.556164",
+  "start_position": {
+    "odom_frame": {
+      "x": 5.034218937947413,
+      "y": -4.3963919315884725,
+      "yaw": 2.5780526893400557
+    },
+    "map_frame": {
+      "x": 6.201057305979849,
+      "y": -0.4018266734370801,
+      "yaw": 2.646398583526414
+    }
+  },
+  "description": "Position where SLAM mapping was started/ended. Use map_frame coordinates for navigation."
+}
